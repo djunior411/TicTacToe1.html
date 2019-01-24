@@ -1,0 +1,33 @@
+
+
+/* body{
+    font-family: 'Open Sans',sans-serif;
+    background-color: lightgrey;
+    text-align: center; */
+
+    body{
+        font-family: 'Open Sans',sans-serif;
+        background-color: lightgrey;
+        text-align: center;
+               
+    }
+
+    .board {
+        margin: 0 auto;
+        height: 100;
+        width: 100;
+        text-align: center;
+    }
+    .row {
+        clear: both;
+        width: 320px          
+       
+    }
+    
+    .row > div {
+        height: 100px;
+        width: 100px;
+        float: left;
+        border: 2px solid black;       
+        
+    }
